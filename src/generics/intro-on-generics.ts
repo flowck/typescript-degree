@@ -50,3 +50,21 @@ myNameArr.getItems();
 myNameArr.removeItem('Changani');
 
 console.log(myNameArr.getItems());
+
+
+function sortASC<T extends { price: number; }>(items: T[]): T[] {
+	return [...items].sort((a: T, b: T) => {
+		return a.price - b.price;
+	});
+}
+
+interface Vehicle { price: number; cilyinders?: number; }
+interface Bike { price: number; strokes?: number; }
+
+// Sort an array of vehicles
+console.log(sortASC<Vehicle>([{ price: 140000 }, { price: 21000 }]));
+
+// Sort an array of bikes
+console.log(sortASC<Bike>([{ price: 15000 }, { price: 12000 }]));
+
+
