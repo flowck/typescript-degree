@@ -12,8 +12,8 @@ My own degree on Typescript:
 
 ## Why?
 
-Because I don't these topics yet, and I am learning the fundamentals, practicing, and mastering on them. 
+Why not?
 
 ## Food for thought
 
- “Motivation alone is not enough. If you have an idiot and you motivate him, now you have a motivated idiot.” – Jim Rohn
+“Motivation alone is not enough. If you have an idiot and you motivate him, now you have a motivated idiot.” – Jim Rohn
